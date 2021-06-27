@@ -1,3 +1,7 @@
+#This Software was Originially Build on 26/06/Hack3_2021
+#Made By Paarth Bathla
+#Contact- Paarth.bathla@outlook.com
+
 import cv2
 # import the necessary packages
 from tensorflow.keras.applications.mobilenet_v2 import preprocess_input
