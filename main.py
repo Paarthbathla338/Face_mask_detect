@@ -1,5 +1,4 @@
 import cv2
-
 # import the necessary packages
 from tensorflow.keras.applications.mobilenet_v2 import preprocess_input
 from tensorflow.keras.preprocessing.image import img_to_array
@@ -91,6 +90,7 @@ while True:
 	# to have a maximum width of 400 pixels
 	frame = vs.read()
 	frame = imutils.resize(frame, width=400)
+
 
 	# detect faces in the frame and determine if they are wearing a
 	# face mask or not
