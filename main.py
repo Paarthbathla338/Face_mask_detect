@@ -298,3 +298,5 @@ plt.savefig("plot.png")
 # do a bit of cleanup
 cv2.destroyAllWindows()
 vs.stop()
+
+#Code Complete
